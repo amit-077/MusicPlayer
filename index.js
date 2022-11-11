@@ -31,6 +31,12 @@ let songArtist = document.getElementById("musicArtist");
 let songImage = document.getElementById("musicPic");
 let songMusic = document.getElementById("music");
 
+// When user visits site, this song should be displayed
+songName.textContent = songs[0].name;
+songArtist.textContent = songs[0].artist;
+songImage.setAttribute("src", songs[0].coverImg);
+songMusic.setAttribute("src", songs[0].currSong);
+
 // setting variable to get current song
 let currentSong = 0;
 
@@ -97,8 +103,4 @@ function pauseMusic(){
   document.getElementById("icon").classList.replace("fa-pause", "fa-play");
 }
 
-// When user visits site, this song should be displayed
- document.getElementById("musicName").textContent = songs[0].name;
- document.getElementById("musicArtist").textContent = songs[0].artist;
- document.getElementById("musicPic").setAttribute("src", songs[0].coverImg);
- document.getElementById("music").setAttribute("src", songs[0].currSong);
+
