@@ -7,19 +7,19 @@ let songs = [
   {
     name: "Brothers Anthem",
     artist: "Vishal Dadlani",
-    coverImg: "/coverImages/brothersAnthem.jpg",
+    coverImg: "/coverImages/brothersAnthem.JPG",
     currSong: "/music/brothersAnthem.mp3"
   },
   {
     name: "Kesariya",
     artist: "Arijit Singh",
-    coverImg: "https://amit-077.github.io/coverImages/kesariya.jpg",
-    currSong: "https://amit-077.github.io/music/kesariya.mp3"
+    coverImg: "/coverImages/kesariya.JPG",
+    currSong: "/music/kesariya.mp3"
   },
   {
     name: "Bhool Bhoolaiya",
     artist: "Neeraj Shridhar",
-    coverImg: "/coverImages/bhulBhulaiya.jpg",
+    coverImg: "/coverImages/bhulBhulaiya.JPG",
     currSong: "/music/bhulBhulaiya.mp3"
   }
 ]
