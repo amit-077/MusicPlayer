@@ -106,4 +106,3 @@ function pauseMusic(){
 }
 
 
-alert("The songs will take few seconds to load...");
