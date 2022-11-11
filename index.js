@@ -13,8 +13,8 @@ let songs = [
   {
     name: "Kesariya",
     artist: "Arijit Singh",
-    coverImg: "/coverImages/kesariya.jpg",
-    currSong: "/music/kesariya.mp3"
+    coverImg: "https://amit-077.github.io/coverImages/kesariya.jpg",
+    currSong: "https://amit-077.github.io/music/kesariya.mp3"
   },
   {
     name: "Bhool Bhoolaiya",
