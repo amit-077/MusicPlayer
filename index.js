@@ -1,9 +1,8 @@
 let isPlaying = false;
 
-document.addEventListener("click",function(){
-console.log(document.readyState);
-});
-
+window.addEventListener("load", function(){
+  alert("Songs will take a few seconds to load");
+})
 
 //songs list
 let songs = [
