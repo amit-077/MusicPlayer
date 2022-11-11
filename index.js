@@ -98,8 +98,7 @@ function pauseMusic(){
 }
 
 // When user visits site, this song should be displayed
-// playMusic();
-//  document.getElementById("musicName").textContent = songs[0].name;
-//  document.getElementById("musicArtist").textContent = songs[0].artist;
-//  document.getElementById("musicPic").setAttribute("src", songs[0].coverImg);
-//  document.getElementById("music").setAttribute("src", songs[0].currSong);
+ document.getElementById("musicName").textContent = songs[0].name;
+ document.getElementById("musicArtist").textContent = songs[0].artist;
+ document.getElementById("musicPic").setAttribute("src", songs[0].coverImg);
+ document.getElementById("music").setAttribute("src", songs[0].currSong);
