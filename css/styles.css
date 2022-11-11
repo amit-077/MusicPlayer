@@ -1,0 +1,101 @@
+body{
+  text-align: center;
+  background-image: linear-gradient(to top, lightgrey 0%, lightgrey 1%, #e0e0e0 26%, #efefef 48%, #d9d9d9 75%, #bcbcbc 100%);
+}
+
+.music_pic img{
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+  /* box-shadow: 0 5px 20px black; */
+  filter: drop-shadow(0 5px 10px grey);
+}
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.music_buttons{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.music_body{
+  background-color: grey;
+  width: 20rem;
+  padding: 20px 0 60px 0;
+  border-radius: 20px;
+  margin: auto;
+  background-color: #fff;
+  background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.music_card{
+  margin-top: 30px;
+}
+
+.play_pause i{
+  color: #fff;
+}
+
+.play_pause {
+  background-color: #000;
+  padding: 14px 16px 14px 17px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.play_pause:hover {
+  background-color: #eee;
+  padding: 14px 16px 14px 19px;
+  border-radius: 50%;
+}
+
+.play_pause:hover i{
+  color: #000;
+}
+
+#music_artist{
+  margin-bottom: 40px;
+  color: #ccc;
+}
+
+#musicName{
+  letter-spacing: 1px;
+}
+
+.previous{
+  cursor: pointer;
+}
+
+.next{
+  cursor: pointer;
+}
+
+.playing{
+    box-shadow: 0 0 5px grey;
+}
+
+.moveImage{
+  animation: rotation 3s infinite linear;
+}
+
+@media only screen and (max-width: 500px) {
+  .music_body{
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .music_body{
+    width: 100%;
+  }
+}
