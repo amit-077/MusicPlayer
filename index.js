@@ -1,5 +1,8 @@
 let isPlaying = false;
 
+document.addEventListener("click",function(){
+console.log(document.readyState);
+});
 
 
 //songs list
